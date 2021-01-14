@@ -1,0 +1,55 @@
+.top-lear{
+    display:flex;
+    flex-direction:row;
+    
+}
+.top-image img{
+    width:400px
+}
+.top-image{
+    width:50%;
+    
+    
+}
+.top-text{
+    width: 50%;
+}
+.penguin-card{
+    border: 0;
+}
+.penguin-card-footer{
+    background-color: white;
+    border: 0;
+}
+.categories img{
+    width:100px;
+
+}
+.footer{
+    display: flex;
+}
+.orderSystem{
+    margin-top: 100px;
+}
+.order-delivery img{
+    width: 100px;
+    height: 100px;
+}
+.delivery-image{
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+.text{
+    color: green;
+}
+@media (max-width:780px){
+    .top-lear{
+        flex-direction:column;
+
+    }
+
+}
+
+   
